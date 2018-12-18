@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="default_image_card_width">150dp</dimen>
+    <dimen name="default_image_card_height">220dp</dimen>
+
+    <!--Alpha Header text-->
+    <item name="lb_browse_header_unselect_alpha" type="fraction">100%</item>
+    <integer name="lb_onboarding_header_description_delay">33</integer>
+    <integer name="lb_onboarding_header_title_delay">33</integer>
+
+    <!--transition duration choose row or back to header-->
+    <integer name="lb_browse_headers_transition_duration">250</integer>
+    <integer name="lb_browse_headers_transition_delay">150</integer>
+    <integer name="lb_browse_rows_anim_duration">250</integer>
+    <dimen name="top_margin_header">60dp</dimen>
+    <dimen name="top_margin_header_text">30dp</dimen>
+
+
+    <!--Search-->
+    <color name="lb_default_search_color">#f7f7f7</color>
+    <color name="lb_default_search_icon_color">#121212</color>
+    <dimen name="lb_search_orb_focused_z">8dp</dimen>
+    <dimen name="lb_search_orb_margin_bottom">4dp</dimen>
+    <dimen name="lb_search_orb_margin_end">4dp</dimen>
+    <dimen name="lb_search_orb_margin_start">4dp</dimen>
+    <dimen name="lb_search_orb_margin_top">4dp</dimen>
+    <dimen name="lb_search_orb_size">52dp</dimen>
+    <dimen name="lb_search_orb_unfocused_z">2dp</dimen>
+    <dimen name="lb_search_browse_row_padding_start">56dp</dimen>
+    <dimen name="lb_search_browse_rows_align_top">147dp</dimen>
+    <dimen name="lb_search_bar_icon_margin_start">16dp</dimen>
+    <dimen name="lb_search_bar_items_margin_start">70dp</dimen>
+    <item name="lb_search_bar_speech_orb_max_level_zoom" type="fraction">144%</item>
+    <item name="lb_search_orb_focused_zoom" type="fraction">110%</item>
+    <item name="lb_search_orb_pulse_duration_ms" type="integer">1000</item>
+    <item name="lb_search_orb_scale_duration_ms" type="integer">150</item>
+    <dimen name="lb_search_bar_padding_start">56dp</dimen>
+
+    <!--Card margin-->
+    <dimen name="lb_browse_item_horizontal_spacing">30dp</dimen>
+    <dimen name="lb_browse_item_vertical_spacing">15dp</dimen>
+    <dimen name="lb_browse_header_fading_length">0dp</dimen>
+
+    <!--header width-->
+    <dimen name="lb_browse_headers_width">200dp</dimen>
+    <dimen name="lb_browse_rows_margin_top">75dp</dimen>
+    <!--row margin Left-->
+    <dimen name="lb_browse_rows_margin_start">200dp</dimen>
+
+    <dimen name="lb_browse_header_height">24dp</dimen>
+    <dimen name="lb_browse_header_padding_end">8dp</dimen>
+    <dimen name="lb_browse_expanded_selected_row_top_padding">16dp</dimen>
+    <dimen name="lb_browse_header_description_text_size">14sp</dimen>
+    <dimen name="lb_browse_section_header_text_size">16sp</dimen>
+
+    <dimen name="lb_browse_padding_bottom">48dp</dimen>
+    <dimen name="lb_browse_padding_end">20dp</dimen>
+    <dimen name="lb_browse_padding_start">20dp</dimen>
+    <dimen name="lb_browse_padding_top">0dp</dimen>
+
+    <!--Header-->
+    <item name="lb_browse_header_select_duration" format="integer" type="dimen">0</item>
+    <item name="lb_browse_header_select_scale" format="float" type="dimen">1</item>
+    <dimen name="lb_browse_header_text_size">20sp</dimen>
+    <dimen name="lb_browse_headers_vertical_spacing">21dp</dimen>
+    <dimen name="lb_browse_headers_z">@dimen/lb_material_shadow_focused_z</dimen>
+
+
+    <dimen name="lb_onboarding_header_height">100dp</dimen>
+    <dimen name="lb_onboarding_header_margin_top">64dp</dimen>
+    <dimen name="lb_onboarding_navigation_height">40dp</dimen>
+
+    <dimen name="default_image_card_overview_width">150dp</dimen>
+    <dimen name="default_image_card_overview_height">220dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.Example.Leanback" parent="Theme.Leanback">
+        <item name="android:colorPrimary">#00A2B8</item>
+        <item name="android:colorAccent">@color/lightblue</item>
+    </style>
+
+    <style name="Theme.Example.LeanbackLauncher" parent="Theme.Example.Leanback">
+        <item name="android:windowBackground">@drawable/main_background_wide</item>
+
+    </style>
+
+
+    <style name="DefaultCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewStyle">@style/DefaultCardStyle</item>
+        <item name="imageCardViewImageStyle">@style/DefaultCardImageStyle</item>
+    </style>
+
+    <style name="DefaultCardStyle" parent="Widget.Leanback.ImageCardViewStyle">
+        <item name="cardBackground">@null</item>
+    </style>
+
+    <style name="DefaultCardImageStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">@dimen/default_image_card_width</item>
+        <item name="android:layout_height">@dimen/default_image_card_height</item>
+    </style>
+
+    <!--Custom theme-->
+    <style name="EpisodeCardTheme" parent="Theme.Leanback">
+        <item name="imageCardViewImageStyle">@style/EpisodeCardViewStyle</item>
+    </style>
+
+    <style name="EpisodeCardViewStyle" parent="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">250dp</item>
+    </style>
+
+    <style name="MovieCardStyle" parent="Widget.Leanback.BaseCardViewStyle">
+        <item name="android:layout_width">@dimen/default_image_card_width</item>
+        <item name="android:layout_height">@dimen/default_image_card_height</item>
+    </style>
+</resources>

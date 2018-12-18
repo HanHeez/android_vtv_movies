@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frEpisodeList"
+    android:background="@drawable/main_background_wide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.open.leanback.widget.HorizontalGridView
+        android:id="@+id/tabsTitle"
+        android:background="@color/transparent_50"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_130"
+        android:padding="20dp"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+    <com.vtvfillm.ui.mainactivity.customview.episode.tabs.TvViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabsTitle" />
+
+</RelativeLayout>

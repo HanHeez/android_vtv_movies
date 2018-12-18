@@ -1,0 +1,3 @@
+include ':app', ':leanbacklib', ':youtubetv2'
+project(':leanbacklib').projectDir = new File('leanback')
+project(':youtubetv2').projectDir = new File('youtubetv')

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">On Film</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <!--Title-->
+    <string name="header_title_cats">Cat</string>
+
+    <!--Tabs Episode name-->
+    <string name="episode_list_tab_home">Tập phim</string>
+    <string name="episode_list_tab_recommend">Xem tiếp</string>
+    <string name="episode_list_tab_seen">Đã xem</string>
+
+
+    <!--Tabs Movie name-->
+    <string name="movie_list_tab_home">Mới nhất</string>
+    <string name="movie_list_tab_recommend">Xem tiếp</string>
+    <string name="movie_list_tab_seen">Đã xem</string>
+
+    <!--Detail Movie-->
+    <string name="action_play">Xem ngay</string>
+    <string name="action_episode_list">Danh sách</string>
+    <string name="action_relate">Liên quan</string>
+
+
+    <array name="cat_names">
+        <item>Cat one</item>
+        <item>Cat two</item>
+        <item>Cat three</item>
+        <item>Cat four</item>
+        <item>Cat five</item>
+        <item>Cat six</item>
+        <item>Cat seven</item>
+        <item>Cat eight</item>
+    </array>
+
+    <array name="cat_descriptions">
+        <item>Description one</item>
+        <item>Description two</item>
+        <item>Description three</item>
+        <item>Description four</item>
+        <item>Description five</item>
+        <item>Description six</item>
+        <item>Description seven</item>
+        <item>Description eight</item>
+    </array>
+
+    <array name="cat_images">
+        <item>https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg</item>
+        <item>https://i.ytimg.com/vi/icqDxNab3Do/maxresdefault.jpg</item>
+        <item>
+            http://cdn.hasinstinct.com/2015/08/14/football-wallpapers-funny-cats-smile-wallpaper-31607.jpg
+        </item>
+        <item>http://s2.dmcdn.net/Dnepf/1280x720-ET4.jpg</item>
+        <item>http://cdn.hasinstinct.com/2015/09/22/funny-cute-cat-7035315.jpg</item>
+        <item>http://www.funny-animalpictures.com/media/content/items/images/funnycats0048_O.jpg
+        </item>
+        <item>
+            https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYz-mKES0-qiefh_xQV1dApGVM2t0UzlSFPB4C8Xm2msyH8tHe
+        </item>
+        <item>
+            http://www.becauseimacat.com/wp-content/uploads/2015/09/Funny-Cat-Vine-Compilation.jpg
+        </item>
+    </array>
+
+
+    <array name="category_name">
+        <item>Phim mới</item>
+        <item>Phim lẻ</item>
+        <item>Phim bộ</item>
+    </array>
+
+    <array name="category_descriptions">
+        <item>Description one</item>
+        <item>Description two</item>
+        <item>Description three</item>
+    </array>
+
+    <array name="category_image">
+        <item>http://icons.iconarchive.com/icons/webalys/kameleon.pics/256/Shop-icon.png</item>
+        <item>https://www.amerinotexchange.com/wp-content/uploads/2014/04/sell-busi-icon-2.png
+        </item>
+        <item>https://housing.umn.edu/sites/housing.umn.edu/files/video_game_icon-01.png</item>
+
+    </array>
+</resources>

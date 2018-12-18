@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:background="@color/transparent"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="@dimen/w_260"
+        android:layout_height="@dimen/h_400"
+
+        android:duplicateParentState="true">
+
+        <ImageView
+            android:id="@+id/imgMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="@drawable/shape_button_selector"
+            android:duplicateParentState="true"
+            />
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:background="@color/movie_title_background"
+            android:id="@+id/txtMovieName"
+            android:layout_width="@dimen/w_260"
+            android:layout_height="@dimen/h_50"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingTop="@dimen/h_5"
+            android:paddingBottom="@dimen/h_5"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:text="ABC"
+            android:textColor="@color/movie_name_card_color"
+            android:textSize="@dimen/h_25" />
+    </FrameLayout>
+
+    <View
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_80"/>
+</LinearLayout>

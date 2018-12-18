@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtMovieName"
+        style="@style/Widget.Leanback.DetailsDescriptionTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Tam Quốc Cơ mật - 2018"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/txtNation"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Nhật bản"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_circle"
+            android:layout_width="5dp"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/txtEpisodeCount"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="30 tập"/>
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_circle"
+            android:layout_width="5dp"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/txtRating"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:text="6.8"
+            android:layout_marginRight="@dimen/h_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--<ImageView-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:src="@drawable/ic_star"/>-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:textColor="@color/grey300"
+        style="@style/Widget.Leanback.DetailsDescriptionBodyStyle"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-regular"
+        android:layout_height="wrap_content"
+        android:text="Filmmaker Guillermo del Toro teas up withFilmmaker Guillermo del Toro teas up with Filmmaker Guillermo del Toro teas up withFilmmaker Guillermo del Toro teas up withFilmmaker Guillermo del Toro teas up withFilmmaker Guillermo del Toro teas up with Legendary Pictures to bring audiences a unique take on the monster film with this sci/fi production."/>
+</LinearLayout>

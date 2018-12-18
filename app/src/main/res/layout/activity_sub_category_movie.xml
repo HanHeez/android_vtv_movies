@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frEpisodeList"
+    android:background="@drawable/main_background_wide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/txtCategory"
+        android:text="Phim mới"
+        android:textSize="@dimen/h_50"
+        android:layout_margin="@dimen/h_20"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/h_30"
+        android:src="@drawable/app_logo"
+        android:layout_marginTop="-10dp"
+        android:layout_width="@dimen/h_150"
+        android:layout_height="@dimen/h_150" />
+    <com.open.leanback.widget.HorizontalGridView
+        android:layout_below="@id/txtCategory"
+        android:id="@+id/tabsTitle"
+        android:paddingLeft="20dp"
+        android:background="@drawable/bg_gradient_subcategory_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_100"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+    <com.vtvfillm.ui.mainactivity.customview.episode.tabs.TvViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabsTitle" />
+
+</RelativeLayout>

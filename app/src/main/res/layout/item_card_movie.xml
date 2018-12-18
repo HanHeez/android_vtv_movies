@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="@dimen/w_260"
+    android:layout_height="@dimen/h_400"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlMovieCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imgPoster"
+            android:layout_above="@+id/rlBottomTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtNumberEpisode"
+            android:gravity="center"
+            android:text="15"
+            android:textColor="@color/movie_name_card_color"
+            android:textSize="@dimen/h_22"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/rlBottomTitle"
+            android:layout_marginRight="@dimen/h_10"
+            android:layout_marginBottom="@dimen/h_10"
+            android:background="@drawable/round_circle_episodenumber"
+            android:layout_width="@dimen/h_40"
+            android:layout_height="@dimen/h_40" />
+
+        <RelativeLayout
+            android:id="@+id/rlBottomTitle"
+            android:layout_alignParentBottom="true"
+            android:background="@color/movie_title_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/h_5"
+                android:id="@+id/txtMovieName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cửu âm chân kinh asdfasfasf"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/movie_name_card_color"
+                android:textSize="@dimen/h_22"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:visibility="visible"
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMovieName"
+                android:textSize="@dimen/h_18"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Phim hot nhất"
+                android:layout_marginBottom="@dimen/h_5"
+                android:textColor="@color/grey500" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/txtRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:layout_toLeftOf="@+id/imgStar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/h_18"
+               />
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imgStar"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/star_gold"
+                android:layout_marginRight="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlTitleTagCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_800"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:visibility="visible">
+
+        <TextView
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:id="@+id/txtTitleTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Phim hành động"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h_30"
+            android:visibility="gone"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgLoadmore"
+            android:layout_centerInParent="true"
+            android:src="@drawable/dcb_add_grey"
+            android:layout_width="@dimen/h_100"
+            android:visibility="gone"
+            android:layout_height="@dimen/h_100" />
+    </RelativeLayout>
+
+</LinearLayout>

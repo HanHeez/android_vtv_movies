@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/browse_dummy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- BrowseFrameLayout serves as root of transition and manages switch between
+         left and right-->
+    <android.support.v17.leanback.widget.BrowseFrameLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="afterDescendants"
+        android:id="@+id/browse_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v17.leanback.widget.BrowseRowsFrameLayout
+            android:id="@+id/browse_container_dock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v17.leanback.widget.ScaleFrameLayout
+                android:id="@+id/scale_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v17.leanback.widget.BrowseRowsFrameLayout>
+
+        <!-- Padding needed for shadow -->
+        <FrameLayout
+            android:id="@+id/browse_headers_dock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingEnd="50dp" />
+    </android.support.v17.leanback.widget.BrowseFrameLayout>
+</FrameLayout>
