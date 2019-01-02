@@ -12,8 +12,8 @@
 
 
     <FrameLayout
-        android:layout_width="@dimen/w_260"
-        android:layout_height="@dimen/h_400"
+        android:layout_width="@dimen/h_130"
+        android:layout_height="@dimen/h_200"
 
         android:duplicateParentState="true">
 
@@ -30,21 +30,21 @@
             android:layout_gravity="bottom"
             android:background="@color/movie_title_background"
             android:id="@+id/txtMovieName"
-            android:layout_width="@dimen/w_260"
-            android:layout_height="@dimen/h_50"
+            android:layout_width="@dimen/h_130"
+            android:layout_height="@dimen/h_25"
             android:ellipsize="end"
             android:gravity="center"
-            android:paddingTop="@dimen/h_5"
-            android:paddingBottom="@dimen/h_5"
+            android:paddingTop="@dimen/h_2"
+            android:paddingBottom="@dimen/h_2"
             android:singleLine="true"
             android:maxLines="1"
             android:text="ABC"
             android:textColor="@color/movie_name_card_color"
-            android:textSize="@dimen/h_25" />
+            android:textSize="@dimen/h_13"  />
     </FrameLayout>
 
     <View
         android:background="@color/transparent"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/h_80"/>
+        android:layout_height="@dimen/h_40"/>
 </LinearLayout>

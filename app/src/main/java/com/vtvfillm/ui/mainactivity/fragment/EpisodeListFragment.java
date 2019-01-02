@@ -49,7 +49,7 @@ public class EpisodeListFragment extends BaseEpisodeFragment implements EpisodeL
     private View view;
     int start = 0;
     int limit = 10;
-MovieDetail movieDetail;
+    MovieDetail movieDetail;
     GridLayoutManager gridLayoutManager;
 
     private void setupActivityComponent(AppComponent appComponent) {

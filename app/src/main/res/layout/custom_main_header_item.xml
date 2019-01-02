@@ -12,16 +12,16 @@
         android:src="@drawable/ic_forward"
         android:layout_alignParentEnd="true"
         android:id="@+id/header_icon"
-        android:layout_width="24dp"
-        android:layout_height="24dp" />
+        android:layout_width="@dimen/h_22"
+        android:layout_height="@dimen/h_22" />
 
     <TextView
         android:layout_centerVertical="true"
         android:focusable="false"
         android:textColor="@color/white"
         android:text="Phim truyền hình"
-        android:textSize="20dp"
-        android:maxWidth="135dp"
+        android:textSize="@dimen/h_17"
+        android:maxWidth="@dimen/h_130"
         android:id="@+id/header_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

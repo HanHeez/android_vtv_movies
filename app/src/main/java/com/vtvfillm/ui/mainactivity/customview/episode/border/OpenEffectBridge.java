@@ -291,7 +291,7 @@ public class OpenEffectBridge extends BaseEffectBridgeWrapper {
             if (descendant instanceof ViewPager || theParent instanceof ViewPager || theParent instanceof CustomViewPager || descendant instanceof CustomViewPager) {
                 rect.offset(0, descendant.getTop() - descendant.getScrollY());
                 if (theParent instanceof ViewPager) {
-                    rect.offset(MoviesApplication.getsInstance().getResources().getDimensionPixelSize(R.dimen.w_443), descendant.getTop() - descendant.getScrollY());
+                    rect.offset(MoviesApplication.getsInstance().getResources().getDimensionPixelSize(R.dimen.h_443), descendant.getTop() - descendant.getScrollY());
                 }
             } else {
                 rect.offset(descendant.getLeft() - descendant.getScrollX(),

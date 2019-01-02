@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:background="@color/transparent"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="@dimen/h_130"
+        android:layout_height="@dimen/h_200"
+        android:background="@color/darkmagenta"
+        android:duplicateParentState="true">
+
+
+        <TextView
+            android:id="@+id/txtCategoryName"
+             android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Việt Nam"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_above="@id/imgPlay"
+            android:layout_marginBottom="15dp"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgPlay"
+            android:layout_marginTop="@dimen/h_30"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tools_ic_muise_big_play_lock"
+            android:layout_width="@dimen/h_50"
+            android:layout_height="@dimen/h_50" />
+    </FrameLayout>
+
+    <View
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_40"/>
+</LinearLayout>

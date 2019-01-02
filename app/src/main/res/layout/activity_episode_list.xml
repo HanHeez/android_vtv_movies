@@ -10,8 +10,8 @@
         android:id="@+id/tabsTitle"
         android:background="@color/transparent_50"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/h_130"
-        android:padding="20dp"
+        android:layout_height="@dimen/h_50"
+        android:padding="@dimen/h_10"
         android:clipChildren="false"
         android:clipToPadding="false" />
 

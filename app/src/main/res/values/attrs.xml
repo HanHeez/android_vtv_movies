@@ -19,4 +19,19 @@
         <attr name="upImageRes"  format="reference" />
         <attr name="shadowImageRes"  format="reference" />
     </declare-styleable>
+
+    <item name="lb_browse_header_unselect_alpha" type="fraction">100%</item>
+    <integer name="lb_onboarding_header_description_delay">33</integer>
+    <integer name="lb_onboarding_header_title_delay">33</integer>
+
+    <!--transition duration choose row or back to header-->
+    <integer name="lb_browse_headers_transition_duration">250</integer>
+    <integer name="lb_browse_headers_transition_delay">150</integer>
+    <integer name="lb_browse_rows_anim_duration">250</integer>
+    <item name="lb_search_bar_speech_orb_max_level_zoom" type="fraction">144%</item>
+    <item name="lb_search_orb_focused_zoom" type="fraction">110%</item>
+    <item name="lb_search_orb_pulse_duration_ms" type="integer">1000</item>
+    <item name="lb_search_orb_scale_duration_ms" type="integer">150</item>
+    <item name="lb_browse_header_select_duration" format="integer" type="dimen">0</item>
+    <item name="lb_browse_header_select_scale" format="float" type="dimen">1</item>
 </resources>

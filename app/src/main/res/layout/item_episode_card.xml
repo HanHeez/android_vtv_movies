@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
-    android:layout_width="@dimen/w_260"
-    android:layout_height="@dimen/h_400"
+    android:layout_width="@dimen/h_130"
+    android:layout_height="@dimen/h_200"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -25,14 +25,14 @@
             android:gravity="center"
             android:text="15"
             android:textColor="@color/movie_name_card_color"
-            android:textSize="@dimen/h_22"
+            android:textSize="@dimen/h_13"
             android:layout_alignParentEnd="true"
             android:layout_above="@+id/rlBottomTitle"
-            android:layout_marginRight="@dimen/h_10"
-            android:layout_marginBottom="@dimen/h_10"
+            android:layout_marginRight="@dimen/h_7"
+            android:layout_marginBottom="@dimen/h_7"
             android:background="@drawable/round_circle_episodenumber"
-            android:layout_width="@dimen/h_40"
-            android:layout_height="@dimen/h_40" />
+            android:layout_width="@dimen/h_25"
+            android:layout_height="@dimen/h_25"/>
 
         <RelativeLayout
             android:id="@+id/rlBottomTitle"
@@ -43,7 +43,7 @@
 
             <TextView
                 android:layout_centerHorizontal="true"
-                android:layout_margin="@dimen/h_5"
+                android:layout_margin="@dimen/h_3"
                 android:id="@+id/txtMovieName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -52,8 +52,9 @@
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:textColor="@color/movie_name_card_color"
-                android:textSize="@dimen/h_22"
+                android:textSize="@dimen/h_13"
                 android:textStyle="bold" />
+
 
             <TextView
                 android:layout_centerHorizontal="true"
@@ -62,11 +63,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/txtMovieName"
-                android:textSize="@dimen/h_18"
+                android:textSize="@dimen/h_11"
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:text="Phim hot nhất"
-                android:layout_marginBottom="@dimen/h_5"
+                android:layout_marginBottom="@dimen/h_3"
                 android:textColor="@color/grey500" />
 
             <TextView
@@ -79,7 +80,7 @@
                 android:layout_weight="1"
                 android:layout_toLeftOf="@+id/imgStar"
                 android:textColor="@color/white"
-                android:textSize="@dimen/h_18"
+                android:textSize="@dimen/h_12"
                 />
             <ImageView
                 android:visibility="gone"
@@ -87,9 +88,9 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
                 android:src="@drawable/star_gold"
-                android:layout_marginRight="5dp"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:layout_marginRight="@dimen/h_5"
+                android:layout_width="@dimen/h_20"
+                android:layout_height="@dimen/h_20" />
 
         </RelativeLayout>
     </RelativeLayout>
@@ -101,7 +102,7 @@
         android:background="@color/gray_800"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="15dp"
+        android:padding="@dimen/h_15"
         android:visibility="visible">
 
         <TextView
@@ -113,7 +114,7 @@
             android:fontFamily="sans-serif-light"
             android:text="Phim hành động"
             android:textColor="@color/white"
-            android:textSize="@dimen/h_30"
+            android:textSize="@dimen/h_18"
             android:visibility="gone"
             android:textStyle="bold" />
 
@@ -121,9 +122,9 @@
             android:id="@+id/imgLoadmore"
             android:layout_centerInParent="true"
             android:src="@drawable/dcb_add_grey"
-            android:layout_width="@dimen/h_100"
+            android:layout_width="@dimen/h_50"
             android:visibility="gone"
-            android:layout_height="@dimen/h_100" />
+            android:layout_height="@dimen/h_50" />
     </RelativeLayout>
 
 </LinearLayout>

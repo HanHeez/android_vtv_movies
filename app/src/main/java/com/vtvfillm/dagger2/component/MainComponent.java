@@ -1,7 +1,9 @@
 package com.vtvfillm.dagger2.component;
 
+import com.vtvfillm.ui.mainactivity.activity.HomeActivity;
 import com.vtvfillm.ui.mainactivity.activity.MainActivity;
 import com.vtvfillm.ui.mainactivity.fragment.EpisodeListFragment;
+import com.vtvfillm.ui.mainactivity.fragment.HomeFragment;
 import com.vtvfillm.ui.mainactivity.fragment.MainFragment;
 import com.vtvfillm.ui.mainactivity.fragment.MovieDetailFragment;
 import com.vtvfillm.ui.mainactivity.fragment.MovieFragment;
@@ -15,6 +17,9 @@ import dagger.Component;
 @Component(dependencies = AppComponent.class)
 public interface MainComponent {
     MainActivity inject(MainActivity mainActivity);
+
+    HomeActivity inject(HomeActivity homeActivity);
+    HomeFragment inject(HomeFragment homeFragment);
 
     MainFragment inject(MainFragment mainFragment);
 

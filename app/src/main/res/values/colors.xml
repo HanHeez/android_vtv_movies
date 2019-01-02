@@ -6,6 +6,15 @@
     <color name="unselect_movie_card_background">#424242</color>
     <color name="unselect_color_header">#6D6F71</color>
     <color name="clear_color">#00000000</color>
+    <color name="lb_default_search_color">#f7f7f7</color>
+    <color name="lb_default_search_icon_color">#121212</color>
+
+    <!--Home category-->
+    <color name="vietnam_home_category_color">#D7E023</color>
+    <color name="quocte_home_category_color">#EF5B23</color>
+    <color name="bomtan_home_category_color">#D0372B</color>
+    <color name="trailerphimmoi_home_category_color">#2B6743</color>
+    <color name="ultra4khd_category_color">#654274</color>
 
     <!--<color name="header_background_color">#0D2345</color>-->
     <color name="header_background_color">#00000000</color>

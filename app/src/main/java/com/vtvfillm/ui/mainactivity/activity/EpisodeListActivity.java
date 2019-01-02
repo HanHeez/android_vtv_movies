@@ -107,7 +107,7 @@ public class EpisodeListActivity extends FragmentActivity {
             }
         });
 
-        tabsTitle.setHorizontalMargin(getResources().getDimensionPixelOffset(R.dimen.w_40));
+        tabsTitle.setHorizontalMargin(getResources().getDimensionPixelOffset(R.dimen.h_40));
         tabsTitle.setAdapter(episodeTabTitleAdapter);
         tabsTitle.setSelectedPosition(0);
         mPosition = 0;

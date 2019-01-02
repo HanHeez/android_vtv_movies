@@ -20,9 +20,9 @@
     <View
         android:id="@+id/search_orb"
         android:layout_marginTop="@dimen/h_15"
-        android:layout_marginLeft="@dimen/h_430"
-        android:layout_width="@dimen/h_800"
-        android:layout_marginBottom="@dimen/h_45"
+        android:layout_marginLeft="@dimen/h_200"
+        android:layout_width="@dimen/h_400"
+        android:layout_marginBottom="@dimen/h_25"
         android:layout_height="@dimen/lb_search_orb_size"
          />
 
@@ -36,13 +36,13 @@
         <!--android:text="Tìm kiếm ..."/>-->
 
     <RelativeLayout
-        android:layout_marginTop="@dimen/h_25"
+        android:layout_marginTop="@dimen/h_12"
         android:id="@+id/lb_search_bar_items"
-        android:layout_width="@dimen/h_800"
+        android:layout_width="@dimen/h_430"
         android:layout_height="@dimen/lb_search_orb_size"
         android:layout_toEndOf="@+id/lb_search_bar_speech_orb"
         android:layout_centerVertical="true"
-        android:layout_marginStart="@dimen/h_430"
+        android:layout_marginStart="@dimen/h_205"
         android:layout_marginBottom="@dimen/lb_search_bar_inner_margin_bottom"
         android:background="@drawable/lb_in_app_search_bg"
         >
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|start"
-            android:layout_marginStart="@dimen/h_100"
+            android:layout_marginStart="@dimen/h_60"
             android:layout_centerVertical="true"
             android:cursorVisible="true"
             android:layout_toEndOf="@+id/lb_search_bar_badge"
@@ -85,10 +85,10 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="@dimen/h_50"
-        android:layout_height="@dimen/h_50"
-        android:layout_marginTop="@dimen/h_52"
-        android:layout_marginLeft="@dimen/h_460"
+        android:layout_width="@dimen/h_30"
+        android:layout_height="@dimen/h_30"
+        android:layout_marginTop="@dimen/h_25"
+        android:layout_marginLeft="@dimen/h_225"
         android:layout_gravity="left"
         android:src="@drawable/baseline_search_black_24dp"
         android:contentDescription="@string/orb_search_action" />

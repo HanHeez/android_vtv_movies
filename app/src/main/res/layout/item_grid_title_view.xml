@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/h_80"
+        android:layout_height="@dimen/h_40"
         android:duplicateParentState="true">
 
         <TextView
@@ -18,7 +18,7 @@
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:text="Danh mục"
-            android:textSize="@dimen/h_35" />
+            android:textSize="@dimen/h_18" />
 
         <!-- 下划线 -->
         <View
